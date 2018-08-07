@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.linuxtools.docker.ui.runDockerImageLaunchConfigurationType">
+    <booleanAttribute key="allocatePseudoTTY" value="false"/>
+    <booleanAttribute key="autoRemove" value="true"/>
+    <listAttribute key="binds"/>
+    <stringAttribute key="command" value="/sbin/qdrouterd -c /etc/qpid-dispatch/qdrouterd.conf "/>
+    <stringAttribute key="connectionName" value="unix:///var/run/docker.sock"/>
+    <stringAttribute key="cpuPriority" value="1024"/>
+    <booleanAttribute key="enableLimits" value="false"/>
+    <listAttribute key="envVariables"/>
+    <stringAttribute key="imageId" value="sha256:45042fb2e14d25608f2a4b16a0b305ab65276136d3d99f6ff918e2ba9f1ba439"/>
+    <stringAttribute key="imageName" value="my/qdrouterd:latest"/>
+    <booleanAttribute key="interactive" value="false"/>
+    <mapAttribute key="labels"/>
+    <listAttribute key="links"/>
+    <stringAttribute key="memoryLimit" value="-1"/>
+    <stringAttribute key="networkMode" value=""/>
+    <booleanAttribute key="privileged" value="false"/>
+    <booleanAttribute key="publishAllPorts" value="false"/>
+    <listAttribute key="publishedPorts">
+        <listEntry value="5671/tcp::15671:true"/>
+        <listEntry value="5672/tcp::15672:true"/>
+    </listAttribute>
+    <listAttribute key="volumes"/>
+    <listAttribute key="volumesFrom"/>
+</launchConfiguration>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/hono-service-auth/src/main/java/org/eclipse/hono/service/auth/impl/Application.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="HONO_APP_MAX_INSTANCES" value="1"/>
+        <mapEntry key="HONO_AUTH_AMQP_BIND_ADDRESS" value="localhost"/>
+        <mapEntry key="HONO_AUTH_AMQP_CERT_PATH" value="${project_loc:/hono-demo-certs}/certs/auth-server-cert.pem"/>
+        <mapEntry key="HONO_AUTH_AMQP_INSECURE_PORT_BIND_ADDRESS" value="localhost"/>
+        <mapEntry key="HONO_AUTH_AMQP_INSECURE_PORT_ENABLED" value="true"/>
+        <mapEntry key="HONO_AUTH_AMQP_KEY_PATH" value="${project_loc:/hono-demo-certs}/certs/auth-server-key.pem"/>
+        <mapEntry key="HONO_AUTH_AMQP_TRUST_STORE_PATH" value="${project_loc:/hono-demo-certs}/certs/trusted-certs.pem"/>
+    </mapAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.hono.service.auth.impl.Application"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hono-service-auth"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dspring.profiles.active=authentication-impl"/>
+</launchConfiguration>
