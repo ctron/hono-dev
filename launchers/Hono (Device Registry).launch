@@ -27,5 +27,5 @@
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.hono.deviceregistry.Application"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hono-service-device-registry"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
-    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dspring.profiles.active=file"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dspring.profiles.active=file,dev"/>
 </launchConfiguration>

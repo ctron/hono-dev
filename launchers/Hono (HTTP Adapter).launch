@@ -34,5 +34,5 @@
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.hono.adapter.http.vertx.Application"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hono-adapter-http-vertx"/>
     <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
-    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dspring.profiles.active=default"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dspring.profiles.active=default,dev"/>
 </launchConfiguration>
