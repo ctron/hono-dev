@@ -5,6 +5,7 @@
     <listAttribute key="binds"/>
     <stringAttribute key="command" value="/sbin/qdrouterd -c /etc/qpid-dispatch/qdrouterd.conf "/>
     <stringAttribute key="connectionName" value="unix:///var/run/docker.sock"/>
+    <stringAttribute key="containerName" value="hono-dev-qrouterd"/>
     <stringAttribute key="cpuPriority" value="1024"/>
     <booleanAttribute key="enableLimits" value="false"/>
     <listAttribute key="envVariables"/>
