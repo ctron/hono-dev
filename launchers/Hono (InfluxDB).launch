@@ -3,13 +3,15 @@
     <booleanAttribute key="allocatePseudoTTY" value="false"/>
     <booleanAttribute key="autoRemove" value="true"/>
     <listAttribute key="binds"/>
-    <stringAttribute key="command" value="/sbin/qdrouterd -c /etc/qpid-dispatch/qdrouterd.conf "/>
+    <stringAttribute key="command" value="-config /etc/config/influxdb.conf"/>
     <stringAttribute key="connectionName" value="unix:///var/run/docker.sock"/>
+    <stringAttribute key="containerName" value="hono-dev-influxdb"/>
     <stringAttribute key="cpuPriority" value="1024"/>
     <booleanAttribute key="enableLimits" value="false"/>
+    <stringAttribute key="entryPoint" value="/entrypoint.sh"/>
     <listAttribute key="envVariables"/>
-    <stringAttribute key="imageId" value="sha256:45042fb2e14d25608f2a4b16a0b305ab65276136d3d99f6ff918e2ba9f1ba439"/>
-    <stringAttribute key="imageName" value="my/qdrouterd:latest"/>
+    <stringAttribute key="imageId" value="sha256:842aae5d1c658a33ca828e101fffdc6b956703feccf07f42ee6054e8d11c8443"/>
+    <stringAttribute key="imageName" value="my/influxdb:latest"/>
     <booleanAttribute key="interactive" value="false"/>
     <mapAttribute key="labels"/>
     <listAttribute key="links"/>
@@ -18,9 +20,8 @@
     <booleanAttribute key="privileged" value="false"/>
     <booleanAttribute key="publishAllPorts" value="false"/>
     <listAttribute key="publishedPorts">
-        <listEntry value="55672//tcp::55672:false"/>
-        <listEntry value="5671//tcp::5671:false"/>
-        <listEntry value="5672//tcp::5672:false"/>
+        <listEntry value="2003/tcp::2003:true"/>
+        <listEntry value="8086/tcp::8086:true"/>
     </listAttribute>
     <listAttribute key="volumes"/>
     <listAttribute key="volumesFrom"/>
