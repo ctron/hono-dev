@@ -14,7 +14,14 @@
         <mapEntry key="HONO_AUTH_AMQP_INSECURE_PORT_ENABLED" value="true"/>
         <mapEntry key="HONO_AUTH_AMQP_KEY_PATH" value="${project_loc:/hono-demo-certs}/certs/auth-server-key.pem"/>
         <mapEntry key="HONO_AUTH_AMQP_TRUST_STORE_PATH" value="${project_loc:/hono-demo-certs}/certs/trusted-certs.pem"/>
+        <mapEntry key="hono.metrics.legacy" value="true"/>
+        <mapEntry key="management.metrics.export.graphite.host" value="localhost"/>
+        <mapEntry key="management.metrics.export.graphite.port" value="2003"/>
+        <mapEntry key="management.metrics.export.graphite.step" value="10s"/>
     </mapAttribute>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
     <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.hono.service.auth.impl.Application"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hono-service-auth"/>

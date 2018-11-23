@@ -22,7 +22,14 @@
         <mapEntry key="HONO_REGISTRY_REST_INSECURE_PORT_ENABLED" value="true"/>
         <mapEntry key="HONO_REGISTRY_REST_PORT" value="18443"/>
         <mapEntry key="HONO_REGISTRY_SVC_SIGNING_SHARED_SECRET" value="g#aWO!BUm7aj*#%X*VGXKFhxkhNrMNj0"/>
+        <mapEntry key="hono.metrics.legacy" value="true"/>
+        <mapEntry key="management.metrics.export.graphite.host" value="localhost"/>
+        <mapEntry key="management.metrics.export.graphite.port" value="2003"/>
+        <mapEntry key="management.metrics.export.graphite.step" value="10s"/>
     </mapAttribute>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
     <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
     <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.hono.deviceregistry.Application"/>
     <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hono-service-device-registry"/>
