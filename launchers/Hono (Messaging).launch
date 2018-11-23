@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/hono-service-messaging/src/main/java/org/eclipse/hono/messaging/HonoMessagingApplication.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="HONO_APP_MAX_INSTANCES" value="1"/>
+        <mapEntry key="HONO_AUTH_HOST" value="localhost"/>
+        <mapEntry key="HONO_AUTH_HOSTNAME_VERIFICATION_REQUIRED" value="false"/>
+        <mapEntry key="HONO_AUTH_NAME" value="device-registry"/>
+        <mapEntry key="HONO_AUTH_PORT" value="5671"/>
+        <mapEntry key="HONO_AUTH_TRUST_STORE_PATH" value="${project_loc:/hono-demo-certs}/certs/trusted-certs.pem"/>
+        <mapEntry key="HONO_AUTH_VALIDATION_CERT_PATH" value="${project_loc:/hono-demo-certs}/certs/auth-server-cert.pem"/>
+        <mapEntry key="hono.downstream.port" value="15671"/>
+        <mapEntry key="hono.messaging.certPath" value="${project_loc:/hono-demo-certs}/certs/hono-messaging-cert.pem"/>
+        <mapEntry key="hono.messaging.keyPath" value="${project_loc:/hono-demo-certs}/certs/hono-messaging-key.pem"/>
+        <mapEntry key="hono.messaging.port" value="35671"/>
+        <mapEntry key="hono.messaging.validation.sharedSecret" value="g#aWO!BUm7aj*#%X*VGXKFhxkhNrMNj0"/>
+        <mapEntry key="hono.metrics.legacy" value="true"/>
+        <mapEntry key="management.metrics.export.graphite.host" value="localhost"/>
+        <mapEntry key="management.metrics.export.graphite.port" value="2003"/>
+        <mapEntry key="management.metrics.export.graphite.step" value="1s"/>
+        <mapEntry key="management.metrics.export.influx.step" value="10s"/>
+    </mapAttribute>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.hono.messaging.HonoMessagingApplication"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hono-service-messaging"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dspring.profiles.active=default,dev"/>
+</launchConfiguration>

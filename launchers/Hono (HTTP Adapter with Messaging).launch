@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/hono-adapter-http-vertx/src/main/java/org/eclipse/hono/adapter/http/vertx/Application.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="HONO_APP_MAX_INSTANCES" value="1"/>
+        <mapEntry key="HONO_COMMAND_PORT" value="35671"/>
+        <mapEntry key="HONO_COMMAND_TRUST_STORE_PATH" value="${project_loc:/hono-demo-certs}/certs/trusted-certs.pem"/>
+        <mapEntry key="HONO_CREDENTIALS_CREDENTIALS_PATH" value="${project_loc:/hono-deploy}/src/main/deploy/http-adapter.credentials"/>
+        <mapEntry key="HONO_CREDENTIALS_HOST" value="localhost"/>
+        <mapEntry key="HONO_CREDENTIALS_PORT" value="25671"/>
+        <mapEntry key="HONO_CREDENTIALS_TRUST_STORE_PATH" value="${project_loc:/hono-demo-certs}/certs/trusted-certs.pem"/>
+        <mapEntry key="HONO_HTTP_BIND_ADDRESS" value="localhost"/>
+        <mapEntry key="HONO_HTTP_CERT_PATH" value="${project_loc:/hono-demo-certs}/certs/http-adapter-cert.pem"/>
+        <mapEntry key="HONO_HTTP_INSECURE_PORT_BIND_ADDRESS" value="localhost"/>
+        <mapEntry key="HONO_HTTP_INSECURE_PORT_ENABLED" value="true"/>
+        <mapEntry key="HONO_HTTP_KEY_PATH" value="${project_loc:/hono-demo-certs}/certs/http-adapter-key.pem"/>
+        <mapEntry key="HONO_MESSAGING_CREDENTIALS_PATH" value="${project_loc:/hono-deploy}/src/main/deploy/http-adapter.credentials"/>
+        <mapEntry key="HONO_MESSAGING_PORT" value="35671"/>
+        <mapEntry key="HONO_MESSAGING_TRUST_STORE_PATH" value="${project_loc:/hono-demo-certs}/certs/trusted-certs.pem"/>
+        <mapEntry key="HONO_REGISTRATION_CREDENTIALS_PATH" value="${project_loc:/hono-deploy}/src/main/deploy/http-adapter.credentials"/>
+        <mapEntry key="HONO_REGISTRATION_HOST" value="localhost"/>
+        <mapEntry key="HONO_REGISTRATION_PORT" value="25671"/>
+        <mapEntry key="HONO_REGISTRATION_TRUST_STORE_PATH" value="${project_loc:/hono-demo-certs}/certs/trusted-certs.pem"/>
+        <mapEntry key="HONO_TENANT_CREDENTIALS_PATH" value="${project_loc:/hono-deploy}/src/main/deploy/http-adapter.credentials"/>
+        <mapEntry key="HONO_TENANT_HOST" value="localhost"/>
+        <mapEntry key="HONO_TENANT_PORT" value="25671"/>
+        <mapEntry key="HONO_TENANT_TRUST_STORE_PATH" value="${project_loc:/hono-demo-certs}/certs/trusted-certs.pem"/>
+        <mapEntry key="hono.metrics.legacy" value="true"/>
+        <mapEntry key="management.metrics.export.graphite.host" value="localhost"/>
+        <mapEntry key="management.metrics.export.graphite.port" value="2003"/>
+        <mapEntry key="management.metrics.export.graphite.step" value="1s"/>
+        <mapEntry key="management.metrics.export.influx.step" value="10s"/>
+    </mapAttribute>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.hono.adapter.http.vertx.Application"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="hono-adapter-http-vertx"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dspring.profiles.active=default,dev"/>
+</launchConfiguration>
